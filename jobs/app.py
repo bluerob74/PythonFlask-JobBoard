@@ -29,7 +29,6 @@ def close_connection(exception):
     if connection is not None:
         connection.close()
 
-
 @app.route('/')
 @app.route('/jobs')
 def jobs():
